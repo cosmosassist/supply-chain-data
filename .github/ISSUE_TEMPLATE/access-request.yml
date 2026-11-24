@@ -1,0 +1,22 @@
+name: Request access to this dataset
+about: SME access request to edit the supply-chain workbook
+title: "[access-request] "
+labels: access-request
+body:
+  - type: input
+    id: gh-handle
+    attributes:
+      label: Your GitHub username
+      placeholder: e.g. jane-doe
+  - type: textarea
+    id: reason
+    attributes:
+      label: What you'll be updating
+      placeholder: Which sheets/columns of the workbook you maintain.
+  - type: checkboxes
+    id: ack
+    attributes:
+      label: Acknowledgement
+      options:
+        - label: I understand edits to this repo are public and permanently attributed to my account.
+          required: true
