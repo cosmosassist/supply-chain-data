@@ -1,5 +1,5 @@
 name: Request access to this dataset
-about: SME access request to edit the supply-chain workbook
+description: SME access request to edit the supply-chain workbook
 title: "[access-request] "
 labels: access-request
 body:
